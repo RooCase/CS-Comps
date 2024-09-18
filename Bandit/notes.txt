@@ -1,0 +1,40 @@
+Bandit0 -> Bandit1:
+
+cat readme -> password contained within
+
+Bandit1 -> Bandit2
+"-" is a signifier for STDIN - use full "./-"
+
+
+2 -> 3
+Need to use autocomplete, if availible. Or ass a '\' before each space
+
+3 -> 4
+"ls -a" will show all files, including hidden files
+
+4 -> 5
+file ./-file0[?]
+
+5 -> 6
+find . -size 1033c -type f ! -executable -exec file {} + | grep "ASCII text"
+
+6 -> 7
+find . -size 33c -user bandit7 -exec file {} + | grep "ASCII text"
+
+
+7 -> 8
+grep millionth data.txt
+
+
+8 -> 9
+sort data.txt | uniq -u
+
+
+9 -> 10
+cat data.txt (accidentally just found it by looking at it)
+
+10 -> 11
+base64 -d data.txt
+
+11 -> 12
+cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
