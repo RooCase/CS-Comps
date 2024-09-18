@@ -38,3 +38,8 @@ base64 -d data.txt
 
 11 -> 12
 cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+12 -> 13
+A lot of unzipping, learned halfway about Zcat.
+
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
